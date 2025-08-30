@@ -15,7 +15,7 @@ parser = StrOutputParser()
 
 chain = prompt | model | parser
 
-result = chain.invoke({'topic': 'cats'})
+result = chain.invoke({'topic': 'Akshay'})
 print(result)
 
 # chain.get_graph().print_ascii()
